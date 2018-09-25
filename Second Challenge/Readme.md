@@ -36,7 +36,7 @@ sudo mv kubectl /usr/local/bin/
 ```
 
 
-#### instalamos el AWS CLI:
+#### Instalamos el AWS CLI:
 ```
 sudo apt-get install python-pip
 
@@ -46,7 +46,7 @@ sudo pip install awscli
 ```
 
 
-#### configuramos el cliente de AWS con nuestras credenciales, region y formato por defecto:
+#### Configuramos el cliente de AWS con nuestras credenciales, region y formato por defecto:
 ```
 aws configure
 ``` 
@@ -54,14 +54,14 @@ aws configure
 
 
 
-#### generamos unas claves de SSH para intercambiar:
+#### Generamos unas claves de SSH para intercambiar:
 ```
 ssh-keygen
 ```
 
 
 
-#### creamos un bucket para guardar el estado del cluster:
+#### Creamos un bucket para guardar el estado del cluster:
 ```
 aws s3 mb s3://kopsclusterdemo
 ```
@@ -75,17 +75,18 @@ kops update cluster k8sclustersetup.tk --yes --state=s3://kopsclusterdemo
 ```
 
 
-#### creamos un Ingress Controller, elegimos NGINX:
-##### https://github.com/nginxinc/kubernetes-ingress/tree/v1.3.0/helm-chart
+#### Creamos un Ingress Controller, elegimos NGINX:
 
 
 
-#### nstalamos los prerequisitos: Helm
+
+#### Instalamos los prerequisitos: Helm
 ``` 
 curl https://raw.githubusercontent.com/kubernetes/helm/master/scripts/get > get_helm.sh
 chmod 700 get_helm.sh
 ./get_helm.sh
 ```
+##### https://github.com/nginxinc/kubernetes-ingress/tree/v1.3.0/helm-chart
 
 #### Inicializamos Helm
 ```
