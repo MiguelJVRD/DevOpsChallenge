@@ -1,6 +1,6 @@
 # DevOps Challenge
 ## First Challenge
-#### 1.- Se indica que no ha de ser necesario instalar nada, asi que o lo vemos desde el interfaz web del portal de amazon, que ya no seria un # script, o necesitamos al menos tener instalado el cliente "AWS CLI" y configurarlo para nuestra cuenta.
+#### 1.- Se indica que no ha de ser necesario instalar nada, asi que o lo vemos desde el interfaz web del portal de amazon, que ya no seria un script, o necesitamos al menos tener instalado el cliente "AWS CLI" y configurarlo para nuestra cuenta.
 
 #### Para instalar el cliente de linea de comandos "AWS CLI":
 
