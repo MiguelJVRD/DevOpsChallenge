@@ -40,7 +40,7 @@ sudo pip install awscli
 
 #### Despues utilizaremos nuestro script llamado
 ```
-bucket_data.sh.txt
+bucket_data.sh
 ```
 
 #### lo invocamos con:
