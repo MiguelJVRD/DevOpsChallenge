@@ -1,13 +1,13 @@
 # DevOpsChallenge
-DevOps Challenge CAPITOLE
+##DevOps Challenge CAPITOLE
 
-MM DevOps Code Challenge
+###MM DevOps Code Challenge
 
-Primer Reto
+##Primer Reto
 
   Directorio "First Challenge"
   
   
-Segundo Reto
+##Segundo Reto
 
   Directorio "Second Challenge"
