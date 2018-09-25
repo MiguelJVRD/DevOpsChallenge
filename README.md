@@ -2,7 +2,7 @@
 
 ## Primer Reto
 
-  Directorio [First Challenge]("https://github.com/MiguelJVRD/DevOpsChallenge/First Challenge/")
+  Directorio [First Challenge](https://github.com/MiguelJVRD/DevOpsChallenge/First%20Challenge/)
   
   
 ## Segundo Reto
