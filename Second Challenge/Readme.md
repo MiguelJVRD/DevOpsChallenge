@@ -75,7 +75,7 @@ kops update cluster k8sclustersetup.tk --yes --state=s3://kopsclusterdemo
 ```
 
 
-#### Creamos un Ingress Controller, elegimos NGINX:
+## Creamos un Ingress Controller, elegimos NGINX:
 
 
 
