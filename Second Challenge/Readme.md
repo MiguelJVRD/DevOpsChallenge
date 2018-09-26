@@ -1,6 +1,6 @@
 # Second Challenge
 
-## Shell script para la instalacion del Kubernetes
+## Shell script para la instalación del Kubernetes
 ```
 #!/bin/bash
 
@@ -86,9 +86,31 @@ curl https://raw.githubusercontent.com/kubernetes/helm/master/scripts/get > get_
 chmod 700 get_helm.sh
 ./get_helm.sh
 ```
-##### https://github.com/nginxinc/kubernetes-ingress/tree/v1.3.0/helm-chart
 
 #### Inicializamos Helm
 ```
 helm init
+```
+#### Instalamos los prerequisitos: Git
+
+```
+apt-get install git
+```
+
+#### Instalamos el Chart del NGINX, para ello clonamos el repositorio del Ingress Controller
+
+```
+git clone git@github.com:nginxinc/kubernetes-ingress.git
+```
+
+#### Cambiamos al directorio de trabajo /helm-chart:
+
+```
+cd kubernetes-ingress/helm-chart
+```
+
+#### Ponemos un nombre a la versión
+
+```
+helm install --name Mi-Version .
 ```
