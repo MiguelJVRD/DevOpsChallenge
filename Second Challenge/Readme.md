@@ -35,6 +35,8 @@ chmod +x kubectl
 sudo mv kubectl /usr/local/bin/
 
 kubeadm init
+
+sudo kubectl apply -f https://docs.projectcalico.org/v2.6/getting-started/kubernetes/installation/hosted/kubeadm/1.6/calico.yaml
 ```
 
 
@@ -116,3 +118,13 @@ cd kubernetes-ingress/helm-chart
 ```
 helm install --name Mi-Version .
 ```
+
+#### Desplegamos un servidor web
+```
+kubectl create deployment nginx --image=nginx
+```
+#### Lo ponemos accesible desde internet por el puerto 80
+```
+kubectl create service nodeport nginx --tcp=80:80
+```
+
